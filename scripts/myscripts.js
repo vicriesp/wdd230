@@ -1,2 +1,1 @@
-document.getElementById("currentdate").textContent = newDate(). tolocalDateString("en-US"), options;
-
+document.getElementById('lastupdate').textContent = newDate().tolocalDateString('en-US'), options;
