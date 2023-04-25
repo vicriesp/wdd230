@@ -45,3 +45,6 @@ p {
 #currentdate {
     color: yellow;
 }
+.center {
+    text-align: center;
+}
