@@ -2,14 +2,12 @@ body {
     font-family: Lato, Arial, Helvetica, sans-serif;
     background-color: #fcfbfb;
     /*font-size: 20px;*/
-    margin: %;
-    padding: %;
+    height: 100%;
 }
 
 .header {
     border: 2px solid black;
     padding: 10px;
-    border-radius: 25px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -22,11 +20,18 @@ body {
     box-shadow: 20px 10px 20px 5px grey;
 }
 h1 {
+    font-size: 1.5rem;
     color:#fcfbfb;
     text-shadow: 5px 5px 10px black;
+    
 }
+
 .bottom {
     border-bottom-style: solid;
+    font-family: 'Dosis', sans-serif;
+}
+li {
+    font-size: .80em;
 }
 .top {
     border-top-style: solid;
@@ -34,17 +39,22 @@ h1 {
 footer {
     border: 2px solid black;
     padding: 10px;
-    border-radius: 25px;
     background-color: #2471A3;
     color: #fcfbfb;
     box-shadow: 10px 5px 20px 5px grey;
+    font-size: .5em;
 }
 p {
+    font-size: .80em;
     font-style: italic;
+    
 }
 #currentdate {
     color: yellow;
 }
 .center {
     text-align: center;
+}
+h2 {
+    font-size: 1rem;
 }
