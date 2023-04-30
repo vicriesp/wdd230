@@ -5,4 +5,19 @@
     section:nth-child(3){
         grid-column: span 1;
     }
+    footer {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.6em;  
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .prox {
+        font-size: 1.5em;
+    }
 }
