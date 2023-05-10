@@ -70,7 +70,6 @@ footer {
     padding: 10px;
     background-color: #0D1B2A;
     color: #fcfbfb;
-    
     font-size: .8em;
 }
 p {
@@ -127,7 +126,7 @@ main {
 
 .font {
     border: 1px solid #1B263B;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
