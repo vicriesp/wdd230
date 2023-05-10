@@ -6,7 +6,7 @@ header {
     padding: 10px;
 }
 nav {
-    background-color: #415A77;
+    background-color: #1B263B;
     text-align: center;
     box-shadow: 0 2px 15px gray;
 }
@@ -20,7 +20,7 @@ nav li a {
     display: block;
     justify-content: center;
     
-    color: Hfff;
+    color: #E0E1DD;
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
@@ -30,6 +30,7 @@ nav a:hover {
     background-color: #bbb;
     color: #36454f;
 }
+
 a {
     color: #778DA9;
     font-size: 1em;
@@ -56,7 +57,7 @@ a {
     padding: 5PX;   
 }
 .img-one {
-    width: 300px;
+    width: 200px;
 }
 .img-two {
     width: 100%;
@@ -123,48 +124,7 @@ main {
     padding: 5PX;  
 }
 /*-------------------DESIGN----------------------*/
-/*#colors {
-    display: grid;
-    border: 1px solid #1B263B;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5PX; 
-    justify-items: center;
-    align-items: center;
-    grid-gap: 5px;
-}
-#black {
-    grid-column: 1/2;
-    background-color: #0D1B2A;
-    color: #E0E1DD;
-    width: 100%;
-    
-}
-#oxford {
-    grid-column: 2/3;
-    background-color: #1B263B;
-    color: #E0E1DD;
-    width: 100%;
-}
-#YInMn {
-    grid-column: 3/4;
-    background-color: #415A77;
-    color: #E0E1DD;
-    width: 100%;
-}
-#silver {
-    grid-column: 4/5;
-    background-color: #778DA9;
-    color: #1B263B;
-    width: 100%;
-}
-#platinum {
-    grid-column: 5/6;
-    background-color: #E0E1DD;
-    color: #1B263B;
-    width: 100%;
-}*/
+
 .font {
     border: 1px solid #1B263B;
     margin-bottom: 10px;
