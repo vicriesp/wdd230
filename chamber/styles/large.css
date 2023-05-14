@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em){
+    nav button { display: none;}
+    nav ul#prim-nav {
+        display: flex;
+        margin-right: 2vw;;
+    }
+    nav ul li a {
+        border: none;
+        
+    }
+    .large {
+        font-size: 2.2em;
+    }
+    .small {
+        font-size: 1.3em;
+    }
+}

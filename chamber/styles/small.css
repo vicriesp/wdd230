@@ -1,0 +1,146 @@
+header {
+    background-color: #0D1B2A;
+    padding:5px 0;
+    color: #E0E1DD;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.logo {
+    width: 90px;
+    align-content: flex-start;
+    border-left: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.face {
+    width: 20px;
+    padding-left: 100px;
+}
+.twi{
+    width: 20px;
+    padding: 10px;
+}
+nav button {
+    margin: 0.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-self: right;
+    columns: white;
+    
+}
+nav li a {
+    display: block;
+    color: white;
+    /*text-align: center;*/
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;  
+}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: #E0E1DD;
+    color: black;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+/*.wrapper {
+    display: flex;
+}
+.wrapper > section {
+    flex: 1;
+}*/
+.large {
+    font-size: 1.3rem;
+    padding: 10px;
+    align-items: left;
+    justify-self:stretch;
+}
+.small {
+    font-size: .9rem;
+    align-items: left;
+    padding: 10px;
+}
+#first {
+    display: grid;
+    margin: 5px;
+    
+}
+.hero {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 40px;
+    background-color: #E0E1DD;
+    
+}
+.event {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 40px;
+    background-color: #E0E1DD;
+}
+.weather {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 40px;
+    background-color: #E0E1DD;
+}
+.news {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 40px;
+    background-color: #E0E1DD;
+}
+#second {
+    display: grid;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #E0E1DD;
+}
+.spot-one {
+    border: 1px solid black;
+    padding: 30px;
+}
+.spot-two {
+    border: 1px solid black;
+    padding: 30px;
+}
+.img2 {
+    width: 100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.location {
+    width: 40px;
+}
+footer {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    text-align: center;
+}
+.join {
+    display:none;
+}

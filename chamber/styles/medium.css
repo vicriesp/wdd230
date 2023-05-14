@@ -1,0 +1,69 @@
+@media only screen and (min-width: 37.5em){
+    .foot {
+        display: flex;
+        /*justify-content: center;*/
+        align-content: center;
+        column-gap: 10%;
+
+    }   
+    .img-2 {
+        justify-self: left;
+    }
+    .utah {
+        text-align: left;
+        font-size: 1.5em;
+    }
+    /*.address {
+        text-align: left;
+    }*/
+    #phone-add {
+        column-gap: 10%;
+        
+        
+    }
+    header {
+        column-gap: 5%;
+    }
+    .large {
+        font-size: 2.2em;
+    }
+    .small {
+        font-size: 1.2em;
+    }
+    
+    .hero {
+        border: 1px solid black;
+        background-color: lightgrey;
+    }
+    .news {
+        border: 1px solid black;
+        background-color: lightgray;
+    }
+    .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .spot-one {
+        grid-column: 1/2;
+    }
+    .spot-two {
+        grid-column: 2/3;
+    }
+
+    .join .event .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .join {
+        display: block;
+        grid-column: 1/4;
+    }
+    .event {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .weather {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}
