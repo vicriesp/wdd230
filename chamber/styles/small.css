@@ -144,3 +144,8 @@ footer {
 .join {
     display:none;
 }
+#btn span:nth-child(1) {display: block;}
+#btn span:nth-child(2) {display: none;}
+
+#btn.open span:nth-child(1) {display: none;}
+#btn.open span:nth-child(2) {display: block;}

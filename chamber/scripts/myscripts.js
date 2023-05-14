@@ -1,5 +1,6 @@
 function toggleMenu() {
     document.getElementById('prim-nav').classList.toggle('open');
+    document.getElementById('btn').classList.toggle('open');
 }
 const x = document.getElementById('btn');
 x.onclick = toggleMenu;

@@ -34,14 +34,17 @@
     .hero {
         border: 1px solid black;
         background-color: lightgrey;
+        order: 1;
     }
     .news {
         border: 1px solid black;
         background-color: lightgray;
+        order: 2;
     }
     .second {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        order: 3;
     }
     .spot-one {
         grid-column: 1/2;
@@ -53,6 +56,7 @@
     .join .event .weather {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        order: 4;
     }
     .join {
         display: block;
