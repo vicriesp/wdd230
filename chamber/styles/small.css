@@ -3,12 +3,13 @@ header {
     padding:5px 0;
     color: #E0E1DD;
     align-content: center;
-    align-content:center;
-    justify-content:center;
+    
     
 }
 .wrapper {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo {
     width: 90px;
@@ -19,7 +20,7 @@ header {
 }
 .face {
     width: 20px;
-    padding-left: 100px;
+    
 }
 .twi{
     width: 20px;
