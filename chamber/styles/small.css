@@ -2,10 +2,13 @@ header {
     background-color: #0D1B2A;
     padding:5px 0;
     color: #E0E1DD;
-    display: flex;
-    align-items:center;
+    align-content: center;
+    align-content:center;
     justify-content:center;
     
+}
+.wrapper {
+    display: flex;
 }
 .logo {
     width: 90px;
@@ -66,12 +69,6 @@ nav ul {
 nav ul.open {
     display: block;
 }
-/*.wrapper {
-    display: flex;
-}
-.wrapper > section {
-    flex: 1;
-}*/
 .large {
     font-size: 1.3rem;
     padding: 10px;
@@ -83,11 +80,13 @@ nav ul.open {
     align-items: left;
     padding: 10px;
 }
-/*#first {
-    display: grid;
-    margin: 5px;
-    
-}*/
+.chamber {
+    width: 50%;
+}
+#date-now{
+    background-color: #535351;
+    text-align: center;
+}
 .hero {
     border: 1px solid black;
     margin: 5px;
@@ -113,18 +112,22 @@ nav ul.open {
     padding: 40px;
     background-color: #E0E1DD;
 }
-#second {
+/*#second {
     display: grid;
     margin: 5px;
     border: 1px solid black;
     padding: 10px;
     background-color: #E0E1DD;
-}
+}*/
 .spot-one {
     border: 1px solid black;
     padding: 30px;
 }
 .spot-two {
+    border: 1px solid black;
+    padding: 30px;
+}
+.spot-three {
     border: 1px solid black;
     padding: 30px;
 }
