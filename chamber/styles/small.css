@@ -83,11 +83,11 @@ nav ul.open {
     align-items: left;
     padding: 10px;
 }
-#first {
+/*#first {
     display: grid;
     margin: 5px;
     
-}
+}*/
 .hero {
     border: 1px solid black;
     margin: 5px;
@@ -144,6 +144,10 @@ footer {
 .join {
     display:none;
 }
+.spot-three {
+    display: none;
+}
+
 #btn span:nth-child(1) {display: block;}
 #btn span:nth-child(2) {display: none;}
 

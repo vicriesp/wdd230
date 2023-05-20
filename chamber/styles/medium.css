@@ -30,8 +30,13 @@
     .small {
         font-size: 1.2em;
     }
+    #first {
+        display: grid;
+        margin: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
     
-    .hero {
+    /*.hero {
         border: 1px solid black;
         background-color: lightgrey;
         order: 1;
@@ -69,5 +74,5 @@
     .weather {
         grid-column: 3/4;
         grid-row: 2/3;
-    }
+    }*/
 }
