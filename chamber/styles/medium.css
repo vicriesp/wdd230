@@ -40,9 +40,20 @@
         background-color: lightgrey;
         grid-column: 1/4;
     }
+    .join-chamber {
+        position: absolute;
+	    top: 90px;
+	    right: 20px;
+	    background: radial-gradient(#eee, #95aee0);
+	    border: 1px solid rgba(55, 117, 62, 0.1);
+        border-radius: 20px;
+	    padding: .3rem;
+	    box-shadow: 0 0 30px #333;
+	    opacity: 0.8;
+    }
     .news {
         border: 1px solid black;
-        background-color: lightgray;
+        background-color: #778DA9;
         grid-column: 1/4;
     }
     .spotlight {
