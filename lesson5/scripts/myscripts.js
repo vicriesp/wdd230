@@ -1,4 +1,8 @@
+/*document.querySelector("Button").disabled=true;*/
+
 function addButton() {
+    let input = document.querySelector('#favchap');
+
     function addChapter() {
         let list = document.querySelector('#list');
         let input = document.querySelector('#favchap');
@@ -18,15 +22,29 @@ function addButton() {
         input.value = ' ';
 
         input.focus();
-    }
-    document.querySelector('button').addEventListener('click', addChapter)
+
+        }
+    
+        document.querySelector('button').addEventListener('click', addChapter)
+    
+    
+        document.querySelector('button').addEventListener('click', false)
+    
+    
+        
+
+    
+
+    
 }
 function init() {
     addButton();
+    
 }
 
 window.addEventListener('DOMContentLoaded', init);
 
+/*------------------------Footer----------------------*/
 var today = new Date();
 var date = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
