@@ -13,8 +13,6 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 const fulldateUK = new Intl.DateTimeFormat("en-UK", { dateStyle: "full"}).format(now);
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-
-
 if (now.getDay() === 1 || now.getDay() === 2) {
     document.querySelector('.come').style.display= 'block';
 }
