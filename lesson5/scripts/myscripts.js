@@ -1,48 +1,37 @@
-/*document.querySelector("Button").disabled=true;*/
-
-function addButton() {
-    let input = document.querySelector('#favchap');
 
     function addChapter() {
-        let list = document.querySelector('#list');
         let input = document.querySelector('#favchap');
-        let item = document.createElement('li');
-        let button = document.createElement('button');
-
-        item.innerText = input.value;
-
-        button.innerText = 'X';
-
-        button.addEventListener('click', x => {button.parentElement.remove()});
-
-        item.appendChild(button);
-
-        list.appendChild(item);
-
-        input.value = ' ';
-
-        input.focus();
-
-        }
-    
-        document.querySelector('button').addEventListener('click', addChapter)
-    
-    
-        document.querySelector('button').addEventListener('click', false)
-    
-    
         
+        if (input.value.trim() === '') {
+            alert("Empty text box");
+        }
+        else {
+            let list = document.querySelector('#list');
+            
+            let item = document.createElement('li');
+            let button = document.createElement('button');
 
-    
+            item.innerText = input.value;
 
-    
-}
-function init() {
-    addButton();
-    
-}
+            button.innerText = 'x';
 
-window.addEventListener('DOMContentLoaded', init);
+            button.addEventListener('click', x => {button.parentElement.remove()});
+
+            item.appendChild(button);
+
+            list.appendChild(item);
+
+            input.value = ' ';
+
+            input.focus();
+        }
+
+        }// End of a chapter
+        
+        document.querySelector('button').addEventListener('click', addChapter)
+
+
+
 
 /*------------------------Footer----------------------*/
 var today = new Date();
