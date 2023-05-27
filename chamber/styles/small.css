@@ -1,10 +1,13 @@
+
+/*--------------HEATHER-----------------------*/
 header {
     background-color: #0D1B2A;
     padding:5px 0;
     color: #E0E1DD;
-    align-content: center;
-
-    
+    align-content: center;   
+}
+header figure.logo {
+    margin: 0;
 }
 .come {
    text-align: center;
@@ -17,7 +20,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-.logo {
+.round-logo {
     width: 90px;
     align-content: flex-start;
     border-left: 25px;
@@ -76,6 +79,13 @@ nav ul {
 nav ul.open {
     display: block;
 }
+#date-now{
+    background-color: #535351;
+    text-align: center;
+    text-decoration: none;
+}
+/*-------------GRID------------------------*/
+
 .large {
     font-size: 1.3rem;
     padding: 10px;
@@ -90,11 +100,7 @@ nav ul.open {
 .chamber {
     width: 50%;
 }
-#date-now{
-    background-color: #535351;
-    text-align: center;
-    text-decoration: none;
-}
+
 .hero {
     margin: 5px;
     
@@ -212,9 +218,7 @@ section hi {
     padding-top: 5px;
 }
 .spot-two img {
-    width: 90px;
-    
-    
+    width: 90px;   
 }
 .spot-three {
     border: 1px solid black;
@@ -225,6 +229,9 @@ section hi {
 .spot-three img {
     width: 60px;
 }
+.spot-three {
+    display: none;
+}
 .img2 {
     width: 100px;
     padding: 10px;
@@ -233,18 +240,18 @@ section hi {
 .location {
     width: 40px;
 }
+.join {
+    display:none;
+}
+/*-----------------FOOTER-----------------------*/
 footer {
     background-color: #0D1B2A;
     color: #E0E1DD;
     text-align: center;
     
 }
-.join {
-    display:none;
-}
-.spot-three {
-    display: none;
-}
+
+
 
 #btn span:nth-child(1) {display: block;}
 #btn span:nth-child(2) {display: none;}
