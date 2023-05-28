@@ -1,4 +1,9 @@
-
+body {
+    font-family: 'Dosis', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
 /*--------------HEATHER-----------------------*/
 header {
     background-color: #0D1B2A;
@@ -48,8 +53,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     justify-self: right;
-    columns: white;
-    
+    columns: white;  
 }
 nav li a {
     display: block;
@@ -69,8 +73,7 @@ nav ul li a:hover {
 }
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
-    
+    padding: .8rem 2vw;   
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 nav ul {
@@ -166,11 +169,14 @@ section hi {
     text-align: center;
 }
 .weather img {
-    width: 100px;
-    
+    width: 70px;   
 }
 .weather p {
     text-align: center;
+}
+.divider {
+    border-top: 2px solid #E0E1DD;
+    padding-top: 5px;
 }
 .news {
     border: 1px solid black;
@@ -232,6 +238,10 @@ section hi {
 .spot-three {
     display: none;
 }
+.join {
+    display:none;
+}
+/*-----------------FOOTER-----------------------*/
 .img2 {
     width: 100px;
     padding: 10px;
@@ -240,15 +250,10 @@ section hi {
 .location {
     width: 40px;
 }
-.join {
-    display:none;
-}
-/*-----------------FOOTER-----------------------*/
 footer {
     background-color: #0D1B2A;
     color: #E0E1DD;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 
