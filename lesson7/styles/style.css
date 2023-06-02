@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+article img[data-src] {
+    filter: blur(0.2em);
+}
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
