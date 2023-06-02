@@ -3,10 +3,14 @@
     grid-template-columns: 1fr;
     text-align: center;
 }
-article img[data-src] {
+picture img {
+    border: 1px solid black;
+    padding: 2px;
+}
+picture img[data-src] {
     filter: blur(0.2em);
 }
-article img {
+picture img {
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
 }
