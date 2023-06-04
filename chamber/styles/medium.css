@@ -91,5 +91,31 @@
         grid-column: 3/4;
         grid-row: 6/7;
     }
-    
+
+/*--------------------- DISCOVERY -----------------*/
+/*-------------------------------------------------*/   
+#grid-discovery {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2 solid black;
+}
+.bdr {
+    border-top: 1px double #E0E1DD;
+    font-size: 1em;
+}
+.arpark {
+    font-size: 3em;
+}
+.capreef {
+    font-size: 3em;
+}
+.byu-c {
+    font-size: 3em;
+}
+.ski {
+    font-size: 3em;
+}
+.slcity {
+    font-size: 3em;
+}
 }

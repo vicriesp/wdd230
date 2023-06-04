@@ -1,5 +1,6 @@
 body {
     font-family: 'Dosis', sans-serif;
+    background-color: #E0E1DD;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -263,3 +264,139 @@ footer {
 
 #btn.open span:nth-child(1) {display: none;}
 #btn.open span:nth-child(2) {display: block;}
+
+/*--------------------- DISCOVERY -----------------*/
+/*-------------------------------------------------*/   
+
+#grid-discovery {
+    
+}
+.arches {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #778DA9;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#cap-reef {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #778DA9;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+#cougars {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #778DA9;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#snow {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #778DA9;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#slc {
+    border: 3px solid black;
+    padding: 20px;
+    background-color: #778DA9;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.imgs {
+    box-shadow: 10px 5px 5px #1B263B;
+    border: 1px solid white;
+}
+.imgs:hover {
+    opacity: .5;
+    
+}
+.arches img {
+    object-fit: cover;
+}
+.arches {
+    margin: 10px auto;
+    position: relative;
+    
+}
+.arpark {
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+    text-decoration-style: double;
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+#cap-reef {
+    margin: 10px auto;
+    position: relative;
+}
+.capreef {
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+    text-decoration-style: double;
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+#cougars {
+    margin: 10px auto;
+    position: relative;
+}
+.byu-c {
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+    text-decoration-style: double;
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+#snow {
+    margin: 10px auto;
+    position: relative;
+}
+.ski {
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+    text-decoration-style: double;
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+#slc {
+    margin: 10px auto;
+    position: relative;
+}
+.slcity {
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    color: white;
+    text-decoration-style: double;
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+.bdr {
+    border-top: 1px double #E0E1DD;
+    font-size: .8em;
+}
+.imgs[data-src] {
+    filter: blur(0.2em);
+}
+.imgs {
+    filter: blur(0em);
+    transition: filter 1s;
+}
