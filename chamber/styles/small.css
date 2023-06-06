@@ -107,6 +107,7 @@ nav ul.open {
 
 .hero {
     margin: 5px;
+    background-color: black;
     
 }
 .hero img {
@@ -130,6 +131,9 @@ nav ul.open {
     box-shadow: 0 0 30px #333;
     opacity: 0.8;
     font-size: .7em;
+}
+figure img {
+    justify-items: auto;
 }
 .welcome {
     position: absolute;
