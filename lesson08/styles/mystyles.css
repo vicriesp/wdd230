@@ -37,6 +37,8 @@ tr:first-child {
 .feature {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #gray {
     background-color: rgb(236, 233, 233);
@@ -46,6 +48,5 @@ table {
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
-    align-content: center;
-    justify-content: center;
+    
 }
