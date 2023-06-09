@@ -25,6 +25,7 @@ td {
     border: 1px solid lightgray;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 caption {
     caption-side: bottom;

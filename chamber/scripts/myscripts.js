@@ -1,3 +1,5 @@
+
+/*---------------Toggle Menu-------------------*/
 function toggleMenu() {
     document.getElementById('prim-nav').classList.toggle('open');
     document.getElementById('btn').classList.toggle('open');
@@ -25,15 +27,4 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 var dateTime = date+' '+time;
 document.getElementById("currentdate").textContent = dateTime;
 
-
-let imagesToLoad = document.querySelectorAll("img[data-src]");
-const loadImages = (image) => {
-  image.setAttribute("src", image.getAttribute("data-src"));
-  image.onload = () => {
-    image.removeAttribute("data-src");
-  };
-};
-
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
+/*-----------------Load Images-----------------------------*/

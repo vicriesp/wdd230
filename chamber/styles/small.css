@@ -404,3 +404,6 @@ footer {
     filter: blur(0em);
     transition: filter 1s;
 }
+#total-days {
+    margin: 10px;
+}
