@@ -131,6 +131,7 @@ nav ul.open {
     box-shadow: 0 0 30px #E0E1DD;
     opacity: 0.8;
     font-size: .7em;
+    text-decoration: none;
 }
 figure img {
     justify-items: auto;
@@ -405,5 +406,94 @@ footer {
     transition: filter 1s;
 }
 #total-days {
-    margin: 10px;
+    text-align: center;
+}
+/*----------------------FORM------------------------------*/
+
+h1 {
+    margin: 20px;
+}
+form {
+    border: 2 solid black;
+    margin: 20px;
+    
+}
+form fieldset {
+    margin: 2rem 0;
+    border:2px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    
+    
+    
+}
+form legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+
+
+}
+form label.top, .sbs {
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+}
+form label.top input, form label.top select {
+    /*-webkit-appearance: none;*/
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+#btnSubmit {
+    border: none;
+    background-color: #415A77;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;   
+    margin-top: 20px;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+textarea {
+    border-color: #4d5b6d;
+    border-radius: 5px;
+}
+.plans {
+
+    width: 100%;
+    align-self: bottom;
+}
+/*-------------------THANK YOU------------------*/
+
+
+.thankyou {
+    text-align: center;
+    border-bottom: 2 solid #415A77;
+}
+.we {
+    text-align: center;
+    padding-bottom: 250px;
+    
 }
