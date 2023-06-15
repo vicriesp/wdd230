@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(198, 198, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.latter {
+    text-align: center;
+    border-bottom: 1px solid gray;
+
+}
+
+card {
+    border: 1px solid black;
+}
