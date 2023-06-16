@@ -28,8 +28,11 @@ async function getProphetData() {
       portrait.imageurl = prophet.imageurl;
       birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
-  
+      card.setAttribute('class', 'card');
+      h2.setAttribute('class', 'names')
+
       // Build the image portrait by setting all the relevant attribute
+      portrait.setAttribute('class', 'imgs');
       portrait.setAttribute('src', prophet.imageurl);
       portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
       portrait.setAttribute('loading', 'lazy');
