@@ -119,6 +119,7 @@
     font-size: 3em;
 }
 /*-------------------------------JOIN--------------------*/
+/*--------------------------------------------------------*/
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,4 +137,12 @@
     grid-column: 2/3;
     grid-row: 2/3;
     padding-top: 500px;
+}
+
+/*-------------------------DIRECTORY----------------------*/
+/*--------------------------------------------------------*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }

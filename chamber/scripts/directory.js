@@ -44,13 +44,14 @@ async function getBusinessData() {
       image.setAttribute('height', '440');
   
       // Append the section(card) with the created elements
+      card.appendChild(image);
       card.appendChild(h2);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phonenumber);
       card.appendChild(website);
       card.appendChild(membershiplevel);
-      card.appendChild(image);
+      
 
       
       

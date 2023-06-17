@@ -5,7 +5,7 @@
         "address": "Salt Lake City, UT",
         "phonenumber": "(801) 324-5330",
         "website": "https://www.dominionenergy.com/utah",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Dominion%20Energy.png",
+        "imageurl": "images/Dominion Energy.png",
         "membershiplevel": "Gold"
       },
       {
@@ -53,7 +53,7 @@
         "address": "Orem, UT",
         "phonenumber": "(801) 851-5030",
         "website": "https://www.costco.com",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Costco.png",
+        "imageurl": "images/Costco.png",
         "membershiplevel": "Gold"
       },
       {
