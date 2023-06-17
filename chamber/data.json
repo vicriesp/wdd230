@@ -13,7 +13,7 @@
         "address": "Lindon, UT",
         "phonenumber": "(801) 224-8666",
         "website": "https://www.alexanders.com",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/alexanders-logo.jpg",
+        "imageurl": "images/alexanders-logo.jpg",
         "membershiplevel": "Silver"
       },
       {
@@ -21,7 +21,7 @@
         "address": "Pleasant Grove, UT",
         "phonenumber": "(435) 319-9054",
         "website": "https://networkr.app",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Networkr.png",
+        "imageurl": "images/Networkr.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -29,7 +29,7 @@
         "address": "Provo, UT",
         "phonenumber": "(801) 705-7000",
         "website": "https://www.ancestry.com",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/ancestry.jpeg",
+        "imageurl": "images/ancestry.jpeg",
         "membershiplevel": "Gold"
       },
       {
@@ -37,7 +37,7 @@
         "address": "Orem, UT",
         "phonenumber": "(801) 224-1779",
         "website": "https://www.captainelectricutah.com/",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Captain-Electric.png",
+        "imageurl": "images/Captain-Electric.png",
         "membershiplevel": "Gold"
       },
       {
@@ -45,7 +45,7 @@
         "address": "Mesa, AZ",
         "phonenumber": "(480) 600-1028",
         "website": "https://www.chapter-one.com",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Charter%20One.png",
+        "imageurl": "images/Charter One.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -61,7 +61,7 @@
         "address": "Provo, UT",
         "phonenumber": "(801) 373-5050",
         "website": "https://www.heraldextra.com",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/Herald.jpeg",
+        "imageurl": "images/Herald.jpeg",
         "membershiplevel": "Silver"
       },
       {
@@ -69,7 +69,7 @@
         "address": "Lehi, UT",
         "phonenumber": "(801) 375-6600",
         "website": "https://www.djplaw.com/lehi",
-        "imageurl": "https://github.com/vicriesp/wdd230/blob/main/chamber/images/dentors.jpeg",
+        "imageurl": "images/dentors.jpeg",
         "membershiplevel": "Silver"
       }
     ]
