@@ -23,7 +23,7 @@ body {
     border: 4px double rgb(249, 245, 245);
     box-shadow: 0 0 10px #0b0a0a;
     background-color: rgb(203, 203, 153);
-    padding: 20px;
+    padding: 10px;
 }
 .imgs {
     width: auto;
