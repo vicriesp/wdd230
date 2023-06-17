@@ -4,7 +4,7 @@
         "name": "Dominion Energy",
         "address": "Salt Lake City, UT",
         "phonenumber": "(801) 324-5330",
-        "website": "http://www.dominionenergy.com/utah",
+        "website": "https://www.dominionenergy.com/utah",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Dominion Energy.png",
         "membershiplevel": "Gold"
       },
@@ -12,7 +12,7 @@
         "name": "Alexander's Print Advantage",
         "address": "Lindon, UT",
         "phonenumber": "(801) 224-8666",
-        "website": "http://www.alexanders.com",
+        "website": "https://www.alexanders.com",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/alexanders-logo.jpg",
         "membershiplevel": "Silver"
       },
@@ -28,7 +28,7 @@
         "name": "Ancestry",
         "address": "Provo, UT",
         "phonenumber": "(801) 705-7000",
-        "website": "http://www.ancestry.com",
+        "website": "https://www.ancestry.com",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/ancestry.jpeg",
         "membershiplevel": "Gold"
       },
@@ -36,7 +36,7 @@
         "name": "Captain Electric, LLC",
         "address": "Orem, UT",
         "phonenumber": "(801) 224-1779",
-        "website": "http://www.captainelectricutah.com/",
+        "website": "https://www.captainelectricutah.com/",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Captain-Electric.png",
         "membershiplevel": "Gold"
       },
@@ -44,7 +44,7 @@
         "name": "Charter One",
         "address": "Mesa, AZ",
         "phonenumber": "(480) 600-1028",
-        "website": "http://www.chapter-one.com",
+        "website": "https://www.chapter-one.com",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Chapter-One.png",
         "membershiplevel": "Bronze"
       },
@@ -52,7 +52,7 @@
         "name": "Costco Wholesale - Orem",
         "address": "Orem, UT",
         "phonenumber": "(801) 851-5030",
-        "website": "http://www.costco.com",
+        "website": "https://www.costco.com",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Costco.png",
         "membershiplevel": "Gold"
       },
@@ -60,7 +60,7 @@
         "name": "Daily Herald",
         "address": "Provo, UT",
         "phonenumber": "(801) 373-5050",
-        "website": "http://www.heraldextra.com",
+        "website": "https://www.heraldextra.com",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Herald.jpeg",
         "membershiplevel": "Silver"
       },
@@ -68,7 +68,7 @@
         "name": "Dentons Durham Jones Pinegar",
         "address": "Lehi, UT",
         "phonenumber": "(801) 375-6600",
-        "website": "http://www.djplaw.com/lehi",
+        "website": "https://www.djplaw.com/lehi",
         "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/desntors.jpeg",
         "membershiplevel": "Silver"
       }
