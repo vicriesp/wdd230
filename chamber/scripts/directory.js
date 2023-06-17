@@ -1,4 +1,4 @@
-const url = 'data.json';
+const url = 'https://vicriesp.github.io/wdd230/chamber/data.json';
 getBusinessData();
 
 async function getBusinessData() {
@@ -8,42 +8,50 @@ async function getBusinessData() {
     displayBusiness(data.business);
   }
   
-  
 
 
-  const displayProphets = (prophets) => {
+  const displayBusiness = (business) => {
     const cards = document.querySelector('div.cards'); // select the output container element
   
-    prophets.forEach((prophet) => {
+    business.forEach((busin) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
-      let birthdate = document.createElement('p');
-      let birthplace = document.createElement('p')
-      let portrait = document.createElement('img');
+      let name = document.createElement('p');
+      let address = document.createElement('p');
+      let phonenumber = document.createElement('p');
+      let website = document.createElement('p');
+      let membershiplevel = document.createElement('p');
+      let image = document.createElement('img');
   
       // Build the h2 content out to show the prophet's full name - finish the template string
-      h2.textContent = `${prophet.name} ${prophet.lastname}`;
-      birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-      portrait.imageurl = prophet.imageurl;
-      birthplace.textContent = `Place of Birth: ${prophet.birthplace}`;
+      h2.textContent = `${busin.name}`;
+      address.textContent = `Address: ${busin.address}`;
+      image.imageurl = busin.imageurl;
+      phonenumber.textContent = `Phone Number: ${busin.phonenumber}`;
+      website.textContent = `Website: ${busin.website}`;
+      membershiplevel.textContent = `Membership Level: ${busin.membershiplevel}`;
 
       card.setAttribute('class', 'card');
       h2.setAttribute('class', 'names')
 
       // Build the image portrait by setting all the relevant attribute
-      portrait.setAttribute('class', 'imgs');
-      portrait.setAttribute('src', prophet.imageurl);
-      portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-      portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
+      image.setAttribute('class', 'imgs');
+      image.setAttribute('src', busin.imageurl);
+      image.setAttribute('alt', `Logo of ${busin.name}`);
+      image.setAttribute('loading', 'lazy');
+      image.setAttribute('width', '340');
+      image.setAttribute('height', '440');
   
       // Append the section(card) with the created elements
       card.appendChild(h2);
-      card.appendChild(birthdate);
-      card.appendChild(birthplace);
-      card.appendChild(portrait);
+      card.appendChild(name);
+      card.appendChild(address);
+      card.appendChild(phonenumber);
+      card.appendChild(website);
+      card.appendChild(membershiplevel);
+      card.appendChild(image);
+
       
       
   

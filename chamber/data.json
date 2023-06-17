@@ -5,7 +5,7 @@
         "address": "Salt Lake City, UT",
         "phonenumber": "(801) 324-5330",
         "website": "http://www.dominionenergy.com/utah",
-        "image": "images/Dominion Energy.png",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Dominion Energy.png",
         "membershiplevel": "Gold"
       },
       {
@@ -13,7 +13,7 @@
         "address": "Lindon, UT",
         "phonenumber": "(801) 224-8666",
         "website": "http://www.alexanders.com",
-        "image": "images/alexanders-logo.jpg",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/alexanders-logo.jpg",
         "membershiplevel": "Silver"
       },
       {
@@ -21,7 +21,7 @@
         "address": "Pleasant Grove, UT",
         "phonenumber": "(435) 319-9054",
         "website": "https://networkr.app",
-        "image": "images/Networkr.png",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Networkr.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -29,7 +29,7 @@
         "address": "Provo, UT",
         "phonenumber": "(801) 705-7000",
         "website": "http://www.ancestry.com",
-        "image": "images/ancestry.jpeg",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/ancestry.jpeg",
         "membershiplevel": "Gold"
       },
       {
@@ -37,7 +37,7 @@
         "address": "Orem, UT",
         "phonenumber": "(801) 224-1779",
         "website": "http://www.captainelectricutah.com/",
-        "image": "images/Captain-Electric.png",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Captain-Electric.png",
         "membershiplevel": "Gold"
       },
       {
@@ -45,7 +45,7 @@
         "address": "Mesa, AZ",
         "phonenumber": "(480) 600-1028",
         "website": "http://www.chapter-one.com",
-        "image": "images/Chapter-One.png",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Chapter-One.png",
         "membershiplevel": "Bronze"
       },
       {
@@ -53,7 +53,7 @@
         "address": "Orem, UT",
         "phonenumber": "(801) 851-5030",
         "website": "http://www.costco.com",
-        "image": "images/Costco.png",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Costco.png",
         "membershiplevel": "Gold"
       },
       {
@@ -61,7 +61,7 @@
         "address": "Provo, UT",
         "phonenumber": "(801) 373-5050",
         "website": "http://www.heraldextra.com",
-        "image": "images/Herald.jpeg",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/Herald.jpeg",
         "membershiplevel": "Silver"
       },
       {
@@ -69,7 +69,7 @@
         "address": "Lehi, UT",
         "phonenumber": "(801) 375-6600",
         "website": "http://www.djplaw.com/lehi",
-        "image": "images/desntors.jpeg",
+        "imageurl": "https://github.com/vicriesp/wdd230/tree/main/chamber/images/desntors.jpeg",
         "membershiplevel": "Silver"
       }
     ]
