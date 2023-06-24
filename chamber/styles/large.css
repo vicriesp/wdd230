@@ -9,10 +9,10 @@
         
     }
     .large {
-        font-size: 2.2em;
+        font-size: 2.8em;
     }
     .small {
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
     .event {
         grid-column: 1/2;

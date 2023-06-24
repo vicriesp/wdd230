@@ -31,10 +31,10 @@
             <div class="small">Chamber of Comerce</div>
         </section>
         <section>
-            <img class="face" src="images/facebook.png" alt="Facebook">
+            <a href="https://www.facebook.com/"><img class="face" src="images/facebook.png" alt="Facebook"></a>
         </section>
         <section>
-            <img class="twi" src="images/twitter.png" alt="Twiter">
+            <a href="https://twitter.com/"><img class="twi" src="images/twitter.png" alt="Twiter"></a>
         </section>
         <nav>
             <button id="btn"><span>&#9776;</span><span>X</span></button>
@@ -49,7 +49,7 @@
         </nav>
     </div>
     <div id="date-now">
-        <time></time>
+        <time class="tim"></time>
         <aside></aside>
     </div>
     </header>
@@ -81,11 +81,13 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
+            <div class="icon-deg">
             <img src="" alt="" id="weather-icon" />
-            <p><span id="current-temp"></span>&deg;F</p>
-            <figcaption></figcaption>
+            <p class="degrees"><span id="current-temp"></span>&deg;F</p>
+            </div>
+            <figcaption class="description"></figcaption>
             <p class="divider">Wind Speed:&nbsp;&nbsp;<span class="speed"></span>km/h</p>
-            <p>Wind Chill:</p><span class="chill"></span>
+            <p>Wind Chill:&nbsp;&nbsp;<span class="chill"></span></p>
         </section>
         <section class="news">
             <h2>News Release</h2>

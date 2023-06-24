@@ -87,20 +87,23 @@ nav ul.open {
 #date-now{
     background-color: #535351;
     text-align: center;
-    text-decoration: none;
+    font-style: normal;
 }
+
 /*-------------GRID------------------------*/
 
 .large {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     padding: 10px;
     align-items: left;
     justify-self:stretch;
+    text-align: center;
 }
 .small {
-    font-size: .9rem;
+    font-size: 1.4rem;
     align-items: left;
     padding: 10px;
+    text-align: center;
 }
 .chamber {
     width: 50%;
@@ -187,6 +190,20 @@ section hi {
 .weather p {
     text-align: center;
 }
+.degrees {
+    font-size: 30px;
+    color: #E0E1DD;
+    text-shadow: 2px 2px 5px black;
+    padding-bottom: 2px;
+}
+.description {
+    font-size: 30px;
+    
+}
+.icon-deg {
+    display: flex;
+    padding-left: 80px;
+}
 .divider {
     border-top: 2px solid #E0E1DD;
     padding-top: 5px;
@@ -254,6 +271,7 @@ section hi {
 .join {
     display:none;
 }
+ 
 /*-----------------FOOTER-----------------------*/
 .img2 {
     width: 100px;
@@ -422,7 +440,7 @@ footer {
     filter: blur(0em);
     transition: filter 1s;
 }
-#total-days {
+hr h4 {
     text-align: center;
 }
 /*----------------------FORM------------------------------*/
@@ -542,9 +560,9 @@ textarea {
     padding: 20px;
 }
 .im {
-    width: 100%;
-    max-width: 225px;
-    height: 120px;
+    
+    max-width: 200px;
+    height: 100px;
 }
 .im:hover {
     opacity: 0.5;
@@ -568,6 +586,8 @@ textarea {
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
+    border: 1px solid white;
+    grid-row-gap:2px;
 }
 .list section > * {
 	margin: 0 1rem;
