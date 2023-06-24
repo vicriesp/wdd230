@@ -56,7 +56,7 @@
     <main>
         <section class="hero">
             <div class="welcome">
-                <h1>Welcome to Utah Valley</h1>
+                <h1 class="welcome-uv">Welcome to Utah Valley</h1>
             </div>
             <div class="hero-one">
                 <figure class="provo-night">
@@ -67,7 +67,7 @@
                             images/provo1200.jpg 1200w">
                 </figure>
                 <section class="join-chamber">
-                    <h2><a href="join.html">Join the Chamber</a></h2>
+                    <h2><a class="joinCh" href="join.html">Join the Chamber</a></h2>
                 </section>
             </div>
         </section>
@@ -76,14 +76,16 @@
             <p>Join us at the chamber to network, collaborate, promote principle-based policies, and help Build Utah Valley Together.</p>
         </section>
         <section class="join">
-            <h2>Join Us!</h2>
+            <h2><a class="joinText" href="join.html">Join Us!</a></h2>
             <p>Join our chamber and attend exclusive events, builds new opportunities and relationships, and have a great deal of fun doing it in support of your community.</p>
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <img src="images/weather.png" alt="Weather">
-            <p class="divider">Wind Speed: 3mph</p><span class="speed"></span>
-            <p>Wind Chill: N/A</p><span class="chill"></span>
+            <img src="" alt="" id="weather-icon" />
+            <p><span id="current-temp"></span>&deg;F</p>
+            <figcaption></figcaption>
+            <p class="divider">Wind Speed:&nbsp;&nbsp;<span class="speed"></span>km/h</p>
+            <p>Wind Chill:</p><span class="chill"></span>
         </section>
         <section class="news">
             <h2>News Release</h2>
@@ -129,5 +131,6 @@
      </footer>
     <script src="scripts/myscripts.js"></script>
     <script src="scripts/windchill.js"></script>
+    
 </body>
 </html>

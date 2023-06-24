@@ -39,8 +39,14 @@
     .join-chamber {
         font-size: 1em;
     }
+    .joinCh {
+        font-size: .9em;
+    }
     .welcome {
         font-size: 1.2em;
+    }
+    .welcome-uv {
+        font-size: 1.8em;
     }
     .news {
         border: 1px solid black;
@@ -81,6 +87,10 @@
         background-color: #1B263B;
         padding: 5px;
         box-shadow: 0 0 10px #333;
+    }
+    .joinText {
+        color: #E0E1DD;
+        text-decoration: none;
     }
     .event {
         grid-column: 1/3;

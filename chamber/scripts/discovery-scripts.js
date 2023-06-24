@@ -16,7 +16,7 @@ const currentdate = Date.now();
 const oldDate = localStorage.getItem("oldDate");
 let daysLastVisiting = 0;
 if (oldDate !== null) {
-    daysLastVisiting = parseInt((currentdate - oldDate) / (1000 * 60 * 60 * 24));
+    daysLastVisiting = parseInt((oldDate - currentdate) / (1000 * 60 * 60 * 24));
 }
  
 

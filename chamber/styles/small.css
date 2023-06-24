@@ -10,7 +10,8 @@ header {
     background-color: #0D1B2A;
     padding:5px 0;
     color: #E0E1DD;
-    align-content: center;   
+    align-content: center;
+       
 }
 header figure.logo {
     margin: 0;
@@ -127,11 +128,17 @@ nav ul.open {
     background: radial-gradient(#eee, #95aee0);
     border: 1px solid rgba(55, 117, 62, 0.1);
     border-radius: 20px;
-    padding: .30rem;
+    padding: .40rem;
     box-shadow: 0 0 30px #E0E1DD;
     opacity: 0.8;
-    font-size: .7em;
+    
+    
+}
+.joinCh {
+    color: #0D1B2A;
     text-decoration: none;
+    font-size: .7em;
+    
 }
 figure img {
     justify-items: auto;
@@ -259,7 +266,12 @@ section hi {
 footer {
     background-color: #0D1B2A;
     color: #E0E1DD;
-    text-align: center;   
+    text-align: center;
+}
+.foot {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -273,9 +285,7 @@ footer {
 /*--------------------- DISCOVERY -----------------*/
 /*-------------------------------------------------*/   
 
-#grid-discovery {
-    
-}
+
 .arches {
     border: 3px solid black;
     padding: 20px;
@@ -312,6 +322,7 @@ footer {
     text-align: center;
     margin-bottom: 5px;
 }
+
 .imgs {
     box-shadow: 10px 5px 5px #1B263B;
     border: 1px solid white;
@@ -337,6 +348,8 @@ footer {
     opacity: 0.8;
     font-size: 2em;
     text-shadow: 2px 2px 5px black;
+    z-index: 1;
+    
 }
 #cap-reef {
     margin: 10px auto;
@@ -351,6 +364,7 @@ footer {
     opacity: 0.8;
     font-size: 2em;
     text-shadow: 2px 2px 5px black;
+    z-index: 1;
 }
 #cougars {
     margin: 10px auto;
@@ -364,7 +378,8 @@ footer {
     text-decoration-style: double;
     opacity: 0.8;
     font-size: 2em;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 4px 4px 7px black;
+    z-index: 1;
 }
 #snow {
     margin: 10px auto;
@@ -378,7 +393,8 @@ footer {
     text-decoration-style: double;
     opacity: 0.8;
     font-size: 2em;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 4px 4px 7px black;
+    z-index: 1;
 }
 #slc {
     margin: 10px auto;
@@ -393,6 +409,7 @@ footer {
     opacity: 0.8;
     font-size: 2em;
     text-shadow: 2px 2px 5px black;
+    z-index: 1;
 }
 .bdr {
     border-top: 1px double #E0E1DD;
