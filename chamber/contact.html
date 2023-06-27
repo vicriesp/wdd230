@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory</title>
-    <link rel="icon" href="../favicon.ico">
+    <title>Contact us</title>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -49,23 +47,28 @@
         </nav>
     </div>
     <div id="date-now">
-        <time></time>
+        <time class="tim"></time>
         <aside></aside>
     </div>
     </header>
-    <div class="menu">
-		<button id="grid">⏹️Grid</button>
-		<button id="list">📄List</button>
-	</div>
-
-    <div class="business">
-        <h1>Business Directory</h1>
+    <div class="contact-info">
+    <h1>Utah Valley Chamber of Comerce</h1>
+    <p><img class="clock" src="images/clock.png">  Mon-Fri 9am - 5pm</p>
+    <p><img class="phone" src="images/phone.png">  (385) 482-2555</p>
+    <p><img class="email" src="images/mail.png">   info@thechamber.org</p>
     </div>
-    <div class="gridlist">
-        <div class="cards"></div>
-    </div>
-        
-
+    <h1 class="contact-us">Contact Us</h1>
+    <form class="forma" method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Have a Question?</legend>
+            <label class="top">Fist Name*<input type="text" name="fname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" required></label>
+            <label class="top">E-mail*<input type="text" name="email" required placeholder="mike@gmail.com"></label>
+            <label class="top">Message:</label>
+            <textarea id="destination" name="description" rows="4" cols="50"></textarea>
+            <button id="btnSubmit" type="submit">Send Message</button>
+        </fieldset>
+    </form>
 
     <footer class="center">
         <div class="foot">
@@ -87,8 +90,8 @@
         &copy; 2023 | Victor E. Rivera | Utah | 
         Last Updated: <span id="currentdate"></span>
      </footer>
-    <script src="scripts/directory.js"></script>
     <script src="scripts/myscripts.js"></script>
+    
     
 </body>
 </html>

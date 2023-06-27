@@ -164,12 +164,16 @@ section hi {
     border: 1px solid black;
     margin: 5px;
     padding: 10px;
-    background-color: #778DA9;
+    background-color: #415A77;
     color: #0D1B2A;
 }
 .event h2 {
     color:#E0E1DD;
     text-shadow: 2px 2px 5px black;
+    text-align: center;
+    
+}
+.event p {
     text-align: center;
 }
 .weather {
@@ -220,6 +224,9 @@ section hi {
     text-shadow: 2px 2px 5px black;
     text-align: center;
 }
+.spotlight {
+    background-color: #778DA9;
+}
 .spot-one {
     border: 1px solid black;
     padding: 5px;
@@ -241,7 +248,7 @@ section hi {
 .spot-two {
     border: 1px solid black;
     padding: 5px;
-    background-color: #778DA9;
+    background-color: #415A77;
     text-align: center;
 }
 .spot-two h2 {
@@ -291,7 +298,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
+.victor {
+    padding: 10px;
+}
 
 
 #btn span:nth-child(1) {display: block;}
@@ -526,11 +535,13 @@ textarea {
 .thankyou {
     text-align: center;
     border-bottom: 2 solid #415A77;
+    color: #415A77;
+    margin-top: 200px;
 }
 .we {
     text-align: center;
     padding-bottom: 250px;
-    
+    color: #415A77;
 }
 /*-----------------------DIRECTORY-----------------*/
 /*-------------------------------------------------*/
@@ -610,5 +621,23 @@ section p {
 	font-size: smaller;
 }
 
+/*-----------------------CONTACT-----------------*/
+/*-------------------------------------------------*/
 
-
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+    color: #415A77;
+}
+.contact-us {
+    color: #415A77;
+}
+.phone {
+    width: 15px;
+}
+.clock {
+    width: 20px;
+}
+.email {
+    width: 20px;
+}
