@@ -58,9 +58,9 @@
     <form class="forma" method="get" action="thankyou.html">
         <fieldset>
             <legend>Personal Information</legend>
-            <label class="top">Fist Name*<input type="text" name="fname" required></label>
+            <label class="top">Fist Name*<input class="fname" type="text" name="fname" required></label>
             <label class="top">Last Name*<input type="text" name="lname" required></label>
-            <label class="top">Position Title<input type="text" name="ptitle" pattern="[A-Za-z]*"></label>
+            <label class="top">Position Title<input type="text" name="ptitle" pattern="([A-z0-9À-ž\s]){7,}"></label>
             <label class="top">E-mail*<input type="text" name="email" required placeholder="mike@gmail.com"></label>
             <label class="top">Cell Phone Number*<input type="number" name="cpnumber" required placeholder="8888888888"></label>
             <label class="top">Business Name*<input type="text" name="bname" required></label>
@@ -78,11 +78,11 @@
         </fieldset>
             <button id="btnSubmit" type="submit">Send Information</button>
     </form>
+    
+    </main>
     <section class="imgplans">
         <img class="plans" src="images/plans.png" alt="plans">
     </section>
-    </main>
-
 
     <footer class="center">
         <div class="foot">
@@ -104,8 +104,8 @@
         &copy; 2023 | Victor E. Rivera | Utah | 
         Last Updated: <span id="currentdate"></span>
      </footer>
-    <script src="scripts/discovery-scripts.js"></script>
-    <script src="scripts/myscripts.js"></script>
+    <!--<script src="scripts/discovery-scripts.js"></script>
+    <script src="scripts/myscripts.js"></script>-->
     
 </body>
 </html>

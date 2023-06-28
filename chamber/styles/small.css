@@ -485,7 +485,12 @@ form label.top, .sbs {
     padding-bottom: 1rem;
     color: #9c2c13;
     font-size: 1rem;
+    width: 100%;
+    resize: horizontal;
+    
 }
+
+
 form label.top input, form label.top select {
     /*-webkit-appearance: none;*/
     display: block;
@@ -524,11 +529,11 @@ textarea {
     border-color: #4d5b6d;
     border-radius: 5px;
 }
-.plans {
-
-    width: 100%;
-    align-self: bottom;
+.imgplans {
+    display: none;
 }
+
+
 /*-------------------THANK YOU------------------*/
 
 

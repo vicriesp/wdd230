@@ -130,7 +130,7 @@
 }
 /*-------------------------------JOIN--------------------*/
 /*--------------------------------------------------------*/
-.grid {
+/*.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -142,12 +142,39 @@
 }
 .forma {
     grid-row: 2/3;
+}*/
+.imgplans {
+    display: contents;
+    /*grid-column: -1/-2;
+    grid-row: -2/-3;
+    padding-top: 100px;
+    display: contents;
+    width: 50%;
+    align-self: bottom;*/
+    float: right;
+    text-align: center;
 }
-}.imgplans {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding-top: 500px;
+.plans {
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+    
 }
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+
+    
 
 /*-------------------------DIRECTORY----------------------*/
 /*--------------------------------------------------------*/
