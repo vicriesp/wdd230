@@ -464,7 +464,7 @@ h1 {
 }*/
 .joinut {
     text-align: center;
-    color: #1B263B;
+    color: #415A77;
 }
 .sbs {
     color: #415A77;
@@ -606,7 +606,7 @@ textarea {
     text-shadow: 2px 2px 5px rgb(10, 10, 10);
 }
 /*------------------ List ------------------------*/
-.menu {
+.grid-list {
 	padding: 1rem;
 	font-size: 30px;
     text-align: center;   

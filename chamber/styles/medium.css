@@ -157,6 +157,7 @@
   .top, .sbs {
     width: 100;
   }
+
   
 
     
@@ -166,12 +167,7 @@
 
 
 
-/*label input {
-    background-color: #d5d5cf;
-    border-radius: 4px;
-    border: 1px solid rgb(34, 33, 33);
-    padding: 0.75rem;
-}*/
+
 .top {
     max-width: 50%;
 }
