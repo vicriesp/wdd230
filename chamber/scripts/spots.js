@@ -1,8 +1,8 @@
-const url = 'https://vicriesp.github.io/wdd230/chamber/data.json';
+const urlspot = 'https://vicriesp.github.io/wdd230/chamber/data.json';
 getBusinessData();
 
 async function getBusinessData() {
-    const response = await fetch(url);
+    const response = await fetch(urlspot);
     const data = await response.json();
     //console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
     displayBusiness(data.business);
@@ -11,8 +11,10 @@ async function getBusinessData() {
 
 
   const displayBusiness = (business) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
-  
+    const spots1 = document.querySelector('.spot1'); // select the output container element
+    const spots2 = document.querySelector('.spot2');
+    const spots3 = document.querySelector('.spot3');
+
     business.forEach((busin) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
@@ -52,28 +54,21 @@ async function getBusinessData() {
       card.appendChild(website);
       card.appendChild(membershiplevel);
      
-      cards.appendChild(card);
+      spots1.appendChild(card);
+      spots2.appendChild(card);
+      spots3.appendChild(card);
+
+
+
+    if (busin.membershiplevel === 'Gold') {
+        spots1.innerHTML = spots1;
+    }
+    if (busin.membershiplevel === 'Silver') {
+        spots2.innerHTML = membershiplevel.textContent;
+    }
+    if (busin.membershiplevel === 'Bronze') {
+        spots3.innerHTML = membershiplevel.textContent;
+    } 
     }); // end of forEach loop
-  } // end of function expression
-
-  //---GRID / LIST-------------------
-
-  const gridbutton = document.querySelector("#grid-button");
-  const listbutton = document.querySelector("#list-button");
-  const display = document.querySelector(".cards");
-  
-  // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-  
-  gridbutton.addEventListener("click", () => {
     
-    display.classList.add("grid");
-    display.classList.remove("list");
-  });
-  
-  listbutton.addEventListener("click", showList); // example using defined function
-  
-  function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-  }
-  
+  } // end of function expression
