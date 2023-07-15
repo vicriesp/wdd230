@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="icon" href="../bountiful.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&family=Viga&display=swap" rel="stylesheet">
+    <link sel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+</head>
+<body>
+    <!-- ------------HEATHER--------------- -->
+    <header id="header">
+        <div id="head">
+            <figure>
+                <a href="index.html"><img class="logo" src="images/bountiful-foods.png" alt="Bountiful Foods Logo"
+                    srcset="images/logo1.png 1x,
+                    images/logo2.png 2x,
+                    images/logo3.png 3x"></a>
+            </figure>
+            <h1 id="businessName">BOUNTIFUL FOODS</h1>
+            <section>
+                <a href="https://https://www.facebook.com/"><img id="facebook" src="images/facebook.png" alt="Facebook"></a>
+            </section>
+            <section>
+                <a href="https://www.instagram.com/"><img id="instagram" src="images/instagram.png" alt="Instagram"></a>
+            </section>
+            <section>
+                <a href="https://www.pinterest.com/"><img id="pinterest" src="images/pinterest.png" alt="Pinterest"></a>
+            </section>
+            <section>
+                <a href="https://twitter.com/"><img id="twitter" src="images/twitter.png" alt="Twitter"></a>
+            </section>
+        </div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            
+            <ul class="menu__box">
+                <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="fresh.html">Fresh</a></li>
+                <li><a class="menu__item" href="about-us.html">About Us</a></li>
+                <li><a class="menu__item" href="resources.html">Resources</a></li>
+                
+            </ul>
+        </div>
+    </header>
+<!-- ------------------------SUMARY INFO------------------- -->
+    <img id="market" src="images/supermarket.jpg" alt="supermarket">
+    <h2 id="freshness">Southern California</h2>
+
+    <div id="sumary-info">
+        <section class="info">
+          <h2>Saindiego County</h2>
+            <figure>
+                <img class="sumary" src="images/sandiegoCounty.webp" alt="Sn Diego" loading="lazy" sizes="50vw"
+                srcset="images/sandiegoCounty200.webp 200w,
+                  images/sandiegoCounty450.webp 450w">
+            </figure>
+                <p>San Diego County offers visitors an unparalleled blend of attractions, natural beauty, and recreational opportunities</p>
+        </section>
+        <section class="info">
+            
+                <h2>Safari Park</h2>
+            <figure>
+                <img class="sumary" src="images/SDZOoSafariPark.webp" alt="Safari Park" loading="lazy" sizes="40vw"
+                srcset="images/SDZOoSafariPark.webp 350w,
+                  images/SDZOoSafariPark.webp 500w">
+            </figure>
+            <p>The San Diego Zoo Safari Park is a 1,800-acre wildlife preserve featuring many endangered species of mammals and birds among its collection of over 3,500 exotic animals.</p>
+        </section>
+        <section class="info">
+            <h2>Seaworld</h2>
+            <figure>
+                <img class="sumary" src="images/seaworld-sd-rapids.webp" alt="Seaworld" loading="lazy" sizes="40vw"
+                srcset="images/seaworld-sd-rapids.webp 300w">
+            </figure>
+            <p>San Diego is famous for its year-round perfect weather, stunning beaches, and world-class attractions
+
+            </p>
+        </section>
+    </div>
+<!-- ---------------------GRID---------------------------- -->
+<div id="weather-drink">
+    <section id="drink">
+        <a href="fresh.html"><h2 id="make-drink">Make your own fruit drink mix</h2></a>
+        <p id="bground"></p>
+        <img id="three-f" src="images/3Flavors.jpg" alt="3 Flavors">
+    </section>
+    <section class="weather">
+        <h2>Weather</h2>
+        <div class="icon-deg">
+        <img src="" alt="" id="weather-icon" />
+        <p class="degrees"><span id="current-temp"></span>&deg;F</p>
+        </div>
+        <figcaption class="description"></figcaption>
+        <p class="divider">Wind Speed:&nbsp;&nbsp;<span class="speed"></span>km/h</p>
+        <p>Wind Chill:&nbsp;&nbsp;<span class="chill"></span></p>
+    </section>
+    <section id="specialty-drink">
+        <h2 class="sDrinks">Specialty drinks Submitted</h2>
+        <p>1. <span class="first"></span></p>
+        <p>2. <span class="second"></span></p>
+        <p>3. <span class="therd"></span></p>
+        <figure>
+            <img class="sixFlavors" data-src="images/6Flavors.jpg" alt="Six Flavors" loading="lazy" sizes="55vw"
+            srcset="images/6Flavors200.jpg 200w,
+                images/6Flavors500.jpg 500w,
+                images/6Flavors800.jpg 800w">
+        </figure>
+        
+    </section>
+</div>
+
+
+
+<!-- ---------------------FOOTER--------------------------- -->
+    <footer id="footer">
+        <div id="in-footer">
+            <section>
+                <img class="logo1" src="images/bountiful-foods.png" alt="Logo">
+            </section>
+            <section>
+                <h1 id="businessName">BOUNTIFUL FOODS</h1>
+            </section>
+            <section>
+                <p>Contact us</p>
+                <p>Sourse</p>
+            </section>
+        </div>
+            <div class="victor">
+                &copy; 2023 | Victor E. Rivera | Utah | 
+                Last Updated: <span id="currentdate"></span>
+                </div>
+
+    </footer>
+
+    <script src="scripts/home-scripts.js"></script>
+    <script src="scripts/chill.js"></script>
+</body>
+</html>

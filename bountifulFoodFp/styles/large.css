@@ -1,0 +1,36 @@
+@media only screen and (min-width: 60em){
+    #facebook, #pinterest, #twitter, #instagram {
+        width: 2rem;
+        display: contents;
+    }
+    #businessName {
+        font-size: 3rem;
+    }
+    /*-----------------SUMARI INFO-------------*/
+    /*#sumary-info {
+        grid-template-columns: 1fr 1fr 1fr;
+    }*/
+    #freshness {
+        font-size: 3rem;
+    }
+
+    #sumary-info > section:nth-child(3) {
+        display: block;
+    }
+    /*----------------GRID-----------------------*/
+    #bground {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+    #make-drink {
+        top: 80px;
+        left: 60px;
+        font-size: 1.5rem;
+    }
+    
+    sDrinks {
+        font-size: 3rem;
+        right: 40px;
+    }
+}

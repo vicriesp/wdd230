@@ -1,0 +1,252 @@
+h1, li, H2{
+    font-family: 'Viga', sans-serif;
+}
+p {
+    font-family: 'Sora', sans-serif;
+}
+#head {
+    margin: 10px;
+    background-color: #264653;   
+}
+#header {
+    background-color: #264653;
+    margin-top: auto;
+    border-bottom: 5px solid #E76F51;
+}
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 4px solid #2A9D8F;
+}
+#businessName {
+    font-size: 1.2rem;
+    
+    color: #E9C46A;
+    text-shadow: 2px 2px 5px black;
+}
+#facebook, #pinterest, #twitter, #instagram {
+    display: none;
+}
+#businessName {
+    text-align: center;
+}
+
+
+#menu__toggle {
+    opacity: 0;
+    margin-bottom: 1px;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 60px;
+    left: 30px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #F4A261;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #F4A261;
+  }
+/*------------------- FOOTER --------------------*/
+#footer {
+    background-color: #264653;
+}
+#in-footer {
+    text-align: center;
+    color: #E9C46A;
+}
+.victor {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #E76F51;
+}
+.logo1 {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 4px solid #2A9D8F;
+}
+/*--------------------BODY--------------------------*/
+#market {
+    width: 100%;
+    
+}
+#freshness {
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    
+    color: #E76F51;
+}
+#sumary-info > section:nth-child(2) {
+    display: none;
+}
+/*#sumary-info > section:nth-child(3) {
+    visibility: hidden;
+}*/
+.info {
+    color: #264653;
+    border: 5px solid #264653;
+    border-radius: 20px;
+    background-color: #E9C46A;
+    text-align: center;
+    
+}
+.info p {
+    font-size: 0.5rem;
+}
+.sumary {
+    width: 270px;
+}
+.info h2 {
+    font-size: 1rem;
+}
+/*--------------------------GRID----------------------------*/
+#three-f {
+    width: 350px;
+    box-shadow: 0 0 9px #264653;
+    margin-top: 20px;
+}
+#bground {
+    background-color: rgb(42, 157, 143);
+    padding: 20px;
+    opacity: 60%;
+    width: 300px;
+    border-radius: 40px;
+}
+#drink {
+    position: relative;
+}
+#make-drink {
+    color: white;
+    text-shadow: 2px 2px 5px #264653;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 60px;
+    font-size: 1.2rem;
+}
+#make-drink:hover {
+    color: #F4A261;
+    
+}
+#bground {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.weather {
+    background-color: #2A9D8F;
+    box-shadow: 10px 5px 5px #264653;
+    text-align: center;
+}
+#weather-icon {
+    width: 100px;
+}
+.weather h2 {
+    color: #264653;
+}
+figcaption {
+    font-family: 'Sora', sans-serif;
+}
+#specialty-drink {
+    position: relative;
+    margin-bottom: 10px;
+}
+.sixFlavors {
+    position: absolute;
+    top: 20px;
+    left: 145px;
+    
+    bottom: 100px;
+    right: 0px;
+}
+.first {
+    position: relative;
+    z-index: 1;
+}
+.second {
+    position: relative;
+    z-index: 1;
+}
+.therd {
+    position: relative;
+    z-index: 4;
+}
+.sDrinks {
+    position: relative;
+    color: #264653;
+    font-size: 1.4rem;
+    right: 40px;
+    margin-bottom: 20px;
+    top: 50px;
+    z-index: 1;
+    left: 10px;
+    top: 5px;
+}
+
+
+

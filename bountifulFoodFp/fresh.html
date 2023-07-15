@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh</title>
+    <link rel="icon" href="../bountiful.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sora&family=Viga&display=swap" rel="stylesheet">
+    <link sel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+</head>
+<body>
+    <header id="header">
+        <div id="head">
+            <figure>
+                <a href="index.html"><img class="logo" src="images/bountiful-foods.png" alt="Bountiful Foods Logo"
+                    srcset="images/logo1.png 1x,
+                    images/logo2.png 2x,
+                    images/logo3.png 3x"></a>
+            </figure>
+            <h1 id="businessName">BOUNTIFUL FOODS</h1>
+            <section>
+                <a href="https://https://www.facebook.com/"><img id="facebook" src="images/facebook.png" alt="Facebook"></a>
+            </section>
+            <section>
+                <a href="https://www.instagram.com/"><img id="instagram" src="images/instagram.png" alt="Instagram"></a>
+            </section>
+            <section>
+                <a href="https://www.pinterest.com/"><img id="pinterest" src="images/pinterest.png" alt="Pinterest"></a>
+            </section>
+            <section>
+                <a href="https://twitter.com/"><img id="twitter" src="images/twitter.png" alt="Twitter"></a>
+            </section>
+        </div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            
+            <ul class="menu__box">
+                <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="fresh.html">Fresh</a></li>
+                <li><a class="menu__item" href="about-us.html">About Us</a></li>
+                <li><a class="menu__item" href="resources.html">Resources</a></li>
+                
+            </ul>
+        </div>
+    </header>
+<!-- -------------------- Form --------------------------->
+    <h1>Fresh Smoothies</h1>
+    <h2>Create your own</h2>
+    <div>
+    <form class="forma" method="get" action="thankyou.html"></form>
+        <section>
+            <label class="top">Fist Name*<input class="fname" type="text" name="fname" required></label>
+            <label class="top">E-mail*<input type="text" name="email" required placeholder="mike@gmail.com"></label>
+            <label class="top">Cell Phone Number*<input type="number" name="cpnumber" required placeholder="8888888888"></label>
+        </section>
+        <section>
+            <h2>Choose three options</h2>
+            <label class="sbs"><input type="checkbox" name="level" value="np"><span class="fruits"></span></label>
+        </section>
+    </form>
+    </div>
+
+
+
+    <footer id="footer">
+        <div id="in-footer">
+            <section>
+                <img class="logo1" src="images/bountiful-foods.png" alt="Logo">
+            </section>
+            <section>
+                <h1 id="businessName">BOUNTIFUL FOODS</h1>
+            </section>
+            <section>
+                <p>Contact us</p>
+                <p>Sourse</p>
+            </section>
+        </div>
+            <div class="victor">
+                &copy; 2023 | Victor E. Rivera | Utah | 
+                Last Updated: <span id="currentdate"></span>
+                </div>
+    </footer>
+
+    <script src="scripts/home-scripts.js"></script>
+    <script src="scripts/fruits.js"></script>
+</body>
+</html>
