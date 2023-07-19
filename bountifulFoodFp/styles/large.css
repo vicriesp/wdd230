@@ -1,10 +1,7 @@
 @media only screen and (min-width: 60em){
-    #facebook, #pinterest, #twitter, #instagram {
-        width: 2rem;
-        display: contents;
-    }
+    
     #businessName {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     /*-----------------SUMARI INFO-------------*/
     /*#sumary-info {
@@ -29,8 +26,12 @@
         font-size: 1.5rem;
     }
     
-    sDrinks {
+    .sDrinks {
         font-size: 3rem;
         right: 40px;
     }
+    .sixFlavors {
+        left: 40px;
+    }
+    
 }

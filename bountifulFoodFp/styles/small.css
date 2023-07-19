@@ -6,7 +6,7 @@ p {
 }
 #head {
     margin: 10px;
-    background-color: #264653;   
+    background-color: #264653;  
 }
 #header {
     background-color: #264653;
@@ -144,9 +144,9 @@ p {
 #sumary-info > section:nth-child(2) {
     display: none;
 }
-/*#sumary-info > section:nth-child(3) {
-    visibility: hidden;
-}*/
+#sumary-info > section:nth-child(3) {
+    display: none;
+}
 .info {
     color: #264653;
     border: 5px solid #264653;
@@ -198,10 +198,13 @@ p {
     top: 70px;
     left: 20px;
 }
-.weather {
+/*.weather {
     background-color: #2A9D8F;
     box-shadow: 10px 5px 5px #264653;
     text-align: center;
+}*/
+.weather {
+    display: none;
 }
 #weather-icon {
     width: 100px;
@@ -220,13 +223,30 @@ figcaption {
     position: absolute;
     top: 20px;
     left: 145px;
-    
+    z-index: -1;
     bottom: 100px;
     right: 0px;
 }
 .first {
     position: relative;
     z-index: 1;
+    font-size: 1rem;
+    
+}
+.uno {
+    color: #264653;
+    font-size: 1.3rem;
+    
+}
+.dos {
+    color: #264653;
+    font-size: 1.3rem;
+    
+}
+.tres {
+    color: #264653;
+    font-size: 1.3rem;
+    
 }
 .second {
     position: relative;
@@ -234,7 +254,7 @@ figcaption {
 }
 .therd {
     position: relative;
-    z-index: 4;
+    z-index: 1;
 }
 .sDrinks {
     position: relative;
@@ -247,6 +267,148 @@ figcaption {
     left: 10px;
     top: 5px;
 }
+/*---------------------------FRESH--------------------------*/
+.fresh {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #264653;
+}
+.form-border {
+    border: 5px solid #264653;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #E9C46A;
+    
+}
+.per-info label {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem; 
+}
+.top {
+    margin-bottom: 1px;
+}
+.fname {
+    padding: 10px;
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.email-fresh {
+    padding: 10px;
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.number {
+    padding: 10px;
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.create {
+    margin-left: 10px;
+    color: #264653;
+}
+.choose {
+    margin-left: 10px;
+    color: #264653;
+}
+#btnSubmit {
+    color: white;
+    background-color: #E76F51;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.3rem;
+    margin-left: 60px;
+    margin-bottom: 10px;
 
+
+}
+.sbs {
+    margin-left: 10px;
+}
+.names {
+    margin-left: 10px;
+    
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: 10px;
+    border-bottom: 5px solid #F4A261;
+    margin-bottom: 10px;
+    font-family: 'Sora', sans-serif;
+    color: #264653;
+    font-size: 1.3rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.order-table {
+    display: none;
+}
+/*-------------------------- About Us ----------------------*/
+.about-us-market {
+    width: 100%;
+    z-index: -1;
+}
+.Mission {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3rem;
+    background-color: aliceblue;
+    
+    
+}
+.eating {
+    text-align: center;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    z-index: 1;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.3rem;
+    background-color: black;
+}
+.logo-round {
+    border: 7px solid #2A9D8F;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+#hist-info {
+    color: #264653;
+    text-align: center;
+}
+.hour, .email, .phone {
+    width: 30px;
+    
+}
+.info-business {
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+}
+#hep {
+    text-align: center;
+    color: #264653;
+}
+#mapa {
+    width: 300px;
+    
+    border: 1px solid black;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px black;
+    margin-left: 10px;
+}
 
 

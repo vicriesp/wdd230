@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh</title>
+    <title>Anout Us Page</title>
     <link rel="icon" href="../bountiful.ico">
     <link href="https://fonts.googleapis.com/css2?family=Sora&family=Viga&display=swap" rel="stylesheet">
     <link sel="stylesheet" href="styles/normalize.css">
@@ -49,52 +49,36 @@
             </ul>
         </div>
     </header>
-<!-- -------------------- Form --------------------------->
-    <h1 class="fresh">Fresh Smoothies</h1>
-    <h2 class="create">Create your own</h2>
-    <div class="form-border">
-    <form class="forma" method="get" action="fresh.html/.smoothy">
-        <section class="per-info">
-            <label class="top">Fist Name*</label>
-            <input class="fname" type="text" name="fname" onchange="onNameChange(this.value)" required>
-            <label class="top">E-mail*</label>
-            <input class="email-fresh" type="text" name="email" onchange="onEmailChange(this.value)" required placeholder="mike@gmail.com">
-            <label class="top">Cell Phone Number*</label>
-            <input class="number" type="number" name="cpnumber" onchange="onCpnumberChange(this.value)" required placeholder="8888888888">
-        </section>
-        <section>
-            <h2 class="choose">Choose three options</h2>
-            <div id="fruit-options"></div>
-        </section>
-        
-    <!--<div>
-        <span class="smoothy"></span>
-        <button id="btnSubmit" onclick="sendFruitOptions()">Send Information</button>
-    </div>-->
-    
-    </form>
-    <div class="order-table">
-    <h2 id="order-info">Your order information:</h2>
-    <section id="table">
-        Order Date: <div id="order-date"></div>
-        Name: <div id="order-name"></div>
-        Email: <div id="order-email"></div>
-        Phone Number: <div id="order-cpnumber"></div>
-        Fruit List: <div id="order-fruit"></div>
-        <p class="Facts">Nutrition Facts:</p> <div id="order-description"></div>
-        Total Fat: <div id="order-fat"></div>
-        Total Carbs: <div id="order-carbohydrates"></div>
-        Total Protein: <div id="order-protein"></div>
-        Total Calories: <div id="order-calories"></div>
-        Total Sugar: <div id="order-sugar"></div>
-    </section>
-    </div>
-    <section class="textarea">
-        <label class="top">Comments:</label>
-        <textarea id="destination" name="description" onchange="onDescriptionChange(this.value)" rows="4" cols="50"></textarea>
-    </section>
-    </div>
-<!-----------------------FOOTER------------------------------>
+        <div id="market-mission">
+            <img class="about-us-market" src="images/supermarket.jpg" alt="Bountiful Foods">
+            <h2 class="Mission">Our Mission:</h2>
+            <h2 class="eating">Making eating better and easier.</h2>
+        </div>
+        <div>
+            <img class="logo-round" src="images/bountiful-foods.png" alt="Bountiful Foods Logo"
+                srcset="images/logo1.png 1x,
+                images/logo2.png 2x,
+                images/logo3.png 3x">
+            <!--<img id="logo-round" src="images/logo1.png" alt="Logo" loading="lazy">-->
+            <p id="hist-info">Fantastic flavor is always in season and nothing beats feeling your best.
+                 For nearly 10 years, Bountiful Foods has brought the right, delicious ingredients
+                to create whirl'd famous flavor served by friendly staff.
+                Try our fuel good food from plant-based smoothies,
+                delicious bowls with fresh fruit toppings. Getting the smoothie you love is now 
+                easier and faster with online ordering. Download our app and 
+                order ahead online or get delivery.</p>
+        </div>
+        <div id="hep">
+            <h3 class="info-business"><img class="hour" src="images/clock.png" alt="Hours"> Hours, Mon - Sat (9:00AM - 9:00PM)</h3>
+            <h3 class="info-business"><img class="email" src="images/mail.png" alt="email"> Email: bfoods@gmail.com</h3>
+            <h3 class="info-business"><img class="phone" src="images/phone.png" alt="Phone">Phone: (801) 369-5532</h3>
+        </div>
+        <h2 id="find">Find us here.</h2>
+        <img id="mapa" src="images/map.png" alt="Map" loading="lazy">
+
+
+
+
     <footer id="footer">
         <div id="in-footer">
             <section>
@@ -115,6 +99,5 @@
     </footer>
 
     <script src="scripts/home-scripts.js"></script>
-    <script src="scripts/fruits.js"></script>
 </body>
 </html>
