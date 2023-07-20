@@ -160,11 +160,14 @@ p {
     color: #264653;
     font-family: 'Viga', sans-serif;
     font-size: 1.2rem;
+    
 }
 .intro {
     color: white;
     font-family: 'Sora', sans-serif;
     font-size: 1rem;
+    text-shadow: 1px 1px 1px black;
+}
 }
 #inviting {
     text-align: center;
