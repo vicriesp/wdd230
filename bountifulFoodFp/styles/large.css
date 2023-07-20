@@ -31,7 +31,9 @@
         right: 40px;
     }
     .sixFlavors {
-        left: 40px;
+        
+        margin-right: 10px;
+        width: 100%;
     }
     /*----------------------- About Us ------------------*/
     .logo-round {

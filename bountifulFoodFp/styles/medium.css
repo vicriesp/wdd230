@@ -144,6 +144,11 @@
     font-size: 2rem;
     border-bottom: 1px solid #E9C46A;
 }
+.sixFlavors {
+        
+    margin-right: 10px;
+    width: 100%;
+}
 
 /*---------------------- Fresh ---------------------------*/
 #order-info {
