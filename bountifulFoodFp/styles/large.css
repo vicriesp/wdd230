@@ -33,5 +33,12 @@
     .sixFlavors {
         left: 40px;
     }
-    
+    /*----------------------- About Us ------------------*/
+    .logo-round {
+        float:right;
+        width: 20%;
+    }
+    .info-business {
+        text-align: center;
+    }
 }

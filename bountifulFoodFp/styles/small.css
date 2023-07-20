@@ -129,6 +129,15 @@ p {
     margin-left: 10px;
     border: 4px solid #2A9D8F;
 }
+.about-us {
+    color: #E9C46A;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Sora', sans-serif;
+}
+.about-us:hover {
+    color: white;
+}
 /*--------------------BODY--------------------------*/
 #market {
     width: 100%;
@@ -137,9 +146,30 @@ p {
 #freshness {
     font-size: 1.2rem;
     text-align: center;
-    text-shadow: 2px 2px 2px black;
-    
+    text-shadow: 2px 2px 2px black;   
     color: #E76F51;
+}
+#box {
+    background-color: #2A9D8F;
+    border: 4px solid #264653;
+    text-align: center;
+    
+    
+}
+.best-smoothies {
+    color: #264653;
+    font-family: 'Viga', sans-serif;
+    font-size: 1.2rem;
+}
+.intro {
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+}
+#inviting {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
 }
 #sumary-info > section:nth-child(2) {
     display: none;
@@ -160,8 +190,15 @@ p {
 }
 .sumary {
     width: 270px;
+    box-shadow: 2px 2px 8px #264653;
+}
+.sumary:hover {
+    opacity: 0.5;
 }
 .info h2 {
+    font-size: 1rem;
+}
+#sd {
     font-size: 1rem;
 }
 /*--------------------------GRID----------------------------*/
@@ -186,7 +223,7 @@ p {
     position: absolute;
     z-index: 1;
     top: 80px;
-    left: 60px;
+    left: 40px;
     font-size: 1.2rem;
 }
 #make-drink:hover {
@@ -196,7 +233,7 @@ p {
 #bground {
     position: absolute;
     top: 70px;
-    left: 20px;
+    left: 5px;
 }
 /*.weather {
     background-color: #2A9D8F;
@@ -216,17 +253,28 @@ figcaption {
     font-family: 'Sora', sans-serif;
 }
 #specialty-drink {
-    position: relative;
+    /*position: relative;*/
     margin-bottom: 10px;
+    left: 30px;
+    
 }
 .sixFlavors {
-    position: absolute;
+    /*position: absolute;
     top: 20px;
-    left: 145px;
+    left: 50px;
     z-index: -1;
-    bottom: 100px;
-    right: 0px;
+    bottom: 90px;
+    right: 0px;*/
+    box-shadow: 10px 5px 5px #264653;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110%;
+}  
+.sixFlavors:hover {
+    opacity: 0.5;
 }
+    
 .first {
     position: relative;
     z-index: 1;
@@ -266,6 +314,11 @@ figcaption {
     z-index: 1;
     left: 10px;
     top: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    
+    color: #E76F51;
 }
 /*---------------------------FRESH--------------------------*/
 .fresh {
@@ -356,6 +409,8 @@ figcaption {
 .about-us-market {
     width: 100%;
     z-index: -1;
+    
+    
 }
 .Mission {
     text-align: center;
@@ -365,7 +420,7 @@ figcaption {
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 1.3rem;
-    background-color: aliceblue;
+    
     
     
 }
@@ -377,18 +432,23 @@ figcaption {
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 1.3rem;
-    background-color: black;
+    
 }
 .logo-round {
     border: 7px solid #2A9D8F;
     border-radius: 50%;
-    text-align: center;
-    margin-left: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 #hist-info {
     color: #264653;
     text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 8px double #E76F51;
 }
 .hour, .email, .phone {
     width: 30px;
@@ -401,14 +461,20 @@ figcaption {
 #hep {
     text-align: center;
     color: #264653;
+    border-bottom: 8px double #E76F51;
 }
 #mapa {
-    width: 300px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid black;
     margin-bottom: 20px;
     box-shadow: 2px 2px 8px black;
-    margin-left: 10px;
+    width: 50%;
+}
+#find {
+    text-align: center;
+    color: #264653;
 }
 
 

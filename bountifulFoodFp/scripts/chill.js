@@ -39,7 +39,7 @@ async function apiFetch() {
             const description = weatherData.weather[0].description;
 
             html += `<tr><td><img src="${iconsrc}" alt="" id="weather-icon" /></td>`;
-            html += '<td>' + temperature + '</td>';
+            //html += '<td>' + temperature + '</td>';
             html += '<td>' + windSpeed + '</td>';
             html += '<td>' + windChill.toFixed(2) + '</td>';
             html += '<td>' + humidity + '</td>';

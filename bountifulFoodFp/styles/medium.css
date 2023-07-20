@@ -67,6 +67,19 @@
 #freshness {
     font-size: 2rem;
 }
+#inviting {
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 2rem;
+    color: #264653;
+
+}
+.best-smoothies {
+    font-size: 2rem;
+}
+.intro {
+    font-size: 1.5rem;
+}
 /*-----------------------GRID--------------------------*/
 #weather-drink {
     display: grid;
@@ -89,7 +102,7 @@
     border: 1px solid black;
 }
 .weather {
-    background-color: #2A9D8F;
+    background-color: rgb(103, 201, 233);
     box-shadow: 10px 5px 5px #264653;
     text-align: center;
 }
@@ -125,6 +138,13 @@
     font-size: 1.8rem;
     right: 170px;
 }
+#temp {
+    color: white;
+    text-shadow: 2px 2px 2px #264653;
+    font-size: 2rem;
+    border-bottom: 1px solid #E9C46A;
+}
+
 /*---------------------- Fresh ---------------------------*/
 #order-info {
     color: #264653;
@@ -168,8 +188,10 @@
 }
 .logo-round {
     float:right;
-    margin-top: 5px;
+    
     margin-right: 100px;
+    width: 20%;
+    
 
     
 }
@@ -201,12 +223,14 @@
     color: #264653;
 }
 #mapa {
-    width: 500px;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid black;
     margin-bottom: 20px;
     box-shadow: 2px 2px 8px black;
-    margin-left: 10px;
+    
+    width: 50%;
 }
 
 }
